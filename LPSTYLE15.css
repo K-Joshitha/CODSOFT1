@@ -1,0 +1,102 @@
+ul
+{
+    background-color: darkgreen;
+list-style-type: none;
+overflow:hidden;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+padding-bottom:10px;
+display:flex;
+justify-content:space-around;
+text-decoration: none;
+}
+li{
+    float: left;
+}
+li {
+    display:inline-block;
+    text-align: center;
+    color:white;
+    font-size:30px;
+}
+ol
+{
+    list-style-type: none;
+    overflow:hidden;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    justify-content:space-around;
+    text-decoration: none;
+    background-color:darkgreen;
+}
+li{
+    float: left;
+}
+li a{
+    display:inline-block;
+    text-align: center;
+    color:white;
+    font-size:30px;
+}
+body
+{
+    background-image:url(school.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color:darkgoldenrod;
+    text-align: center;
+}
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    position: relative;
+    left: 100px;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    position: relative;
+    left: 100px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  } 
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }  
+  .container {
+    padding: 16px;
+    width: 70%;
+    position: relative;
+    left:150px;
+    color: white;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
